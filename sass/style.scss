@@ -10,7 +10,7 @@ $padding-base-vertical: 14px !default;
 $brand-primary: #F14E95 !default;
 $brand-secondary: #118DF0 !default; 
 
-$brand-white: #fff;
+$brand-white: #000;
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .5);
+		background: rgba(0, 0, 0, 1);
 		@include transition(.5s);
 	}
 	&:hover {
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		top: 0;
 		left: 0;
 		right: 0;
-		background: rgba(0, 0, 0, .5);
+		background: rgb(228 176 176 / 100%)!important;
 	}
 	> .fh5co-container {
 		position: relative;
@@ -444,7 +444,6 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	.fh5co-heading{
 		h2{
-			color: $brand-white;
 		}
 		span{
 			color: rgba($brand-white,.5);
@@ -460,7 +459,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .4);
+		
 	}
 	@media screen and (max-width: $screen-sm) {
 		height: inherit;
@@ -483,7 +482,6 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		h3{
 			font-size: 20px;
-			color: $brand-white;
 			border-bottom: 1px solid rgba($brand-white,.5);
 			display: block;
 			padding-bottom: 20px;
@@ -870,12 +868,12 @@ form {
 		h1, h2 {
 			margin: 0;
 			padding: 0;
-			color: rgba(255,255,255,1);
 		}
 		h1 {
 			margin-bottom: 0px;
 			font-size: 100px;
 			line-height: 1.5;
+			color: #000000 !important;
 			font-family: $font-secondary;
 			@media screen and (max-width: $screen-sm) {
 				font-size: 40px;
@@ -1316,7 +1314,7 @@ form {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .4);
+		background: rgba(0, 0, 0, 1.4);
 	}
 	.fh5co-heading {
 		h2 {
