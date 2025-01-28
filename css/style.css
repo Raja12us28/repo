@@ -1803,5 +1803,46 @@ form label {
   opacity: 0;
 }
 
+.event-wrap-css {
+    border: 2px solid rgba(0, 0, 0,  1.0); /* Replace with actual color */
+    background: rgba(255, 255, 255, 0.1); /* Replace with actual color */
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-radius: 4px; /* Replaced @include border-radius(4px) */
+}
+
+@media screen and (max-width: 768px) { /* Replace $screen-sm with actual breakpoint */
+    .event-wrap-css {
+        margin-bottom: 10px;
+    }
+}
+
+.event-wrap-css h3 {
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7); /* Replace with actual color */
+    display: block;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.event-wrap-css p,
+.event-wrap-css span {
+    display: block;
+    color: rgba(0, 0, 0, 1); /* Replace with actual color */
+}
+
+.event-wrap-css i {
+    color: rgba(0, 0, 0, 1); /* Replace with actual color */
+    font-size: 20px;
+}
+
+.event-wrap-css .event-col {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
 
