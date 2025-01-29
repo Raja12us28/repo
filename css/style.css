@@ -20,6 +20,10 @@ body {
   background: #fff;
 }
 
+.fh5co-nav-toggle{
+ display:none !important;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
